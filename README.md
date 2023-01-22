@@ -1,3 +1,5 @@
+![Asher_Duarte_mixed_elements_code__mysql__golang_3a525d5a-ad83-4f0a-868e-b03e67d51ffa (1)](https://user-images.githubusercontent.com/105469529/213915339-d53e4f8b-fc22-482d-a76f-d0c9648be7da.png)
+
 # Overview
 This is a Go program that demonstrates basic CRUD operations on a MySQL database. It connects to a database, performs various queries, and displays the results.
 
