@@ -89,6 +89,7 @@ func albumsByArtist(name string) ([]Album, error) {
 			return nil, fmt.Errorf("albumsByArtist: %q: %v", name, err)
 		}
 		albums = append(albums, alb)
+		fmt.Printf("Album found: %v\n", alb)
 	}
 	if err := rows.Err(); err != nil {
 		return nil, fmt.Errorf("albumsByArtist: %q: %v", name, err)
